@@ -22,6 +22,4 @@ app.use(function errorHandler (err, req, res, next) {
   res.render('error', { error: err })
 }
 )
-
-
 app.listen(3000)
